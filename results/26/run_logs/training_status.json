@@ -1,0 +1,56 @@
+{
+    "CubeAgent": {
+        "checkpoints": [
+            {
+                "steps": 499928,
+                "file_path": "results\\26\\CubeAgent\\CubeAgent-499928.onnx",
+                "reward": -0.8993763695941882,
+                "creation_time": 1725802538.6220345,
+                "auxillary_file_paths": [
+                    "results\\26\\CubeAgent\\CubeAgent-499928.pt"
+                ]
+            },
+            {
+                "steps": 999856,
+                "file_path": "results\\26\\CubeAgent\\CubeAgent-999856.onnx",
+                "reward": -0.4357017322610586,
+                "creation_time": 1725803258.3332458,
+                "auxillary_file_paths": [
+                    "results\\26\\CubeAgent\\CubeAgent-999856.pt"
+                ]
+            },
+            {
+                "steps": 1499936,
+                "file_path": "results\\26\\CubeAgent\\CubeAgent-1499936.onnx",
+                "reward": -0.1023868392495548,
+                "creation_time": 1725803980.8456256,
+                "auxillary_file_paths": [
+                    "results\\26\\CubeAgent\\CubeAgent-1499936.pt"
+                ]
+            },
+            {
+                "steps": 1501000,
+                "file_path": "results\\26\\CubeAgent\\CubeAgent-1501000.onnx",
+                "reward": -0.09146940569082895,
+                "creation_time": 1725803980.9819224,
+                "auxillary_file_paths": [
+                    "results\\26\\CubeAgent\\CubeAgent-1501000.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1501000,
+            "file_path": "results\\26\\CubeAgent.onnx",
+            "reward": -0.09146940569082895,
+            "creation_time": 1725803980.9819224,
+            "auxillary_file_paths": [
+                "results\\26\\CubeAgent\\CubeAgent-1501000.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "CubeAgent": {
+        "checkpoints": [
+            {
+                "steps": 3499839,
+                "file_path": "results\\58\\CubeAgent\\CubeAgent-3499839.onnx",
+                "reward": 95.96250076591969,
+                "creation_time": 1726598688.9463956,
+                "auxillary_file_paths": [
+                    "results\\58\\CubeAgent\\CubeAgent-3499839.pt"
+                ]
+            },
+            {
+                "steps": 3999762,
+                "file_path": "results\\58\\CubeAgent\\CubeAgent-3999762.onnx",
+                "reward": 88.96923534686749,
+                "creation_time": 1726599172.6383262,
+                "auxillary_file_paths": [
+                    "results\\58\\CubeAgent\\CubeAgent-3999762.pt"
+                ]
+            },
+            {
+                "steps": 4499603,
+                "file_path": "results\\58\\CubeAgent\\CubeAgent-4499603.onnx",
+                "reward": 123.96364259719849,
+                "creation_time": 1726599655.0470767,
+                "auxillary_file_paths": [
+                    "results\\58\\CubeAgent\\CubeAgent-4499603.pt"
+                ]
+            },
+            {
+                "steps": 4999795,
+                "file_path": "results\\58\\CubeAgent\\CubeAgent-4999795.onnx",
+                "reward": 132.7500114440918,
+                "creation_time": 1726600138.3141515,
+                "auxillary_file_paths": [
+                    "results\\58\\CubeAgent\\CubeAgent-4999795.pt"
+                ]
+            },
+            {
+                "steps": 5000295,
+                "file_path": "results\\58\\CubeAgent\\CubeAgent-5000295.onnx",
+                "reward": 107.32000961303712,
+                "creation_time": 1726600138.37324,
+                "auxillary_file_paths": [
+                    "results\\58\\CubeAgent\\CubeAgent-5000295.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5000295,
+            "file_path": "results\\58\\CubeAgent.onnx",
+            "reward": 107.32000961303712,
+            "creation_time": 1726600138.37324,
+            "auxillary_file_paths": [
+                "results\\58\\CubeAgent\\CubeAgent-5000295.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

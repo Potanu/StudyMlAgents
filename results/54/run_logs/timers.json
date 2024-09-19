@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1726589406",
+        "python_version": "3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\81809\\Desktop\\Python\\Unity-ml-agents\\venv\\Scripts\\mlagents-learn config/ppo/Cube.yaml --run-id=54",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.19.5",
+        "end_time_seconds": "1726589467"
+    },
+    "total": 61.3946406,
+    "count": 1,
+    "self": 0.007069700000002399,
+    "children": {
+        "run_training.setup": {
+            "total": 0.09875100000000003,
+            "count": 1,
+            "self": 0.09875100000000003
+        },
+        "TrainerController.start_learning": {
+            "total": 61.2888199,
+            "count": 1,
+            "self": 0.00011160000000387527,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 61.288695499999996,
+                    "count": 1,
+                    "self": 61.288695499999996
+                },
+                "TrainerController._save_models": {
+                    "total": 1.2800000000368073e-05,
+                    "count": 1,
+                    "self": 1.2800000000368073e-05
+                }
+            }
+        }
+    }
+}

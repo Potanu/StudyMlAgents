@@ -1,0 +1,47 @@
+{
+    "CubeAgent": {
+        "checkpoints": [
+            {
+                "steps": 499914,
+                "file_path": "results\\78\\CubeAgent\\CubeAgent-499914.onnx",
+                "reward": -18.28958245863517,
+                "creation_time": 1726787591.8426688,
+                "auxillary_file_paths": [
+                    "results\\78\\CubeAgent\\CubeAgent-499914.pt"
+                ]
+            },
+            {
+                "steps": 999895,
+                "file_path": "results\\78\\CubeAgent\\CubeAgent-999895.onnx",
+                "reward": 36.28913487040478,
+                "creation_time": 1726788145.6594841,
+                "auxillary_file_paths": [
+                    "results\\78\\CubeAgent\\CubeAgent-999895.pt"
+                ]
+            },
+            {
+                "steps": 1000004,
+                "file_path": "results\\78\\CubeAgent\\CubeAgent-1000004.onnx",
+                "reward": 35.40638730373789,
+                "creation_time": 1726788145.7121747,
+                "auxillary_file_paths": [
+                    "results\\78\\CubeAgent\\CubeAgent-1000004.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000004,
+            "file_path": "results\\78\\CubeAgent.onnx",
+            "reward": 35.40638730373789,
+            "creation_time": 1726788145.7121747,
+            "auxillary_file_paths": [
+                "results\\78\\CubeAgent\\CubeAgent-1000004.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
